@@ -5,6 +5,7 @@ import {
     Menu as MenuIcon,
     People as PeopleIcon,
     Restaurant as RestaurantIcon,
+    ShoppingCart as ShoppingCartIcon,
 } from '@mui/icons-material';
 import {
     AppBar,
@@ -40,6 +41,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         { text: 'Funcionários', icon: <PeopleIcon />, path: '/funcionarios' },
         { text: 'Pratos do Dia', icon: <RestaurantIcon />, path: '/pratos' },
         { text: 'Check-in', icon: <CheckCircleIcon />, path: '/checkin' },
+        { text: 'Lista de Compras', icon: <ShoppingCartIcon />, path: '/lista-compras' },
     ];
 
     const handleDrawerToggle = () => {

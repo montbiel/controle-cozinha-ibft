@@ -10,6 +10,7 @@ import CheckIn from './pages/CheckIn';
 import Dashboard from './pages/Dashboard';
 import Estoque from './pages/Estoque';
 import Funcionarios from './pages/Funcionarios';
+import ListaCompras from './pages/ListaCompras';
 import Pratos from './pages/Pratos';
 
 const theme = createTheme({
@@ -48,6 +49,7 @@ function App() {
               <Route path="/funcionarios" element={<Funcionarios />} />
               <Route path="/pratos" element={<Pratos />} />
               <Route path="/checkin" element={<CheckIn />} />
+              <Route path="/lista-compras" element={<ListaCompras />} />
             </Routes>
           </Layout>
         </Router>
